@@ -4,7 +4,7 @@ An implementation of a digital twin of a traffic management system.
 
 ## Usage
 
-Before running this script, ensure the [world state server](broken link) is running.
+Before running this script, ensure the [world state server](https://github.com/j-leeming-uni/scc.300-world_state) is running.
 
 ```sh
 poetry install
