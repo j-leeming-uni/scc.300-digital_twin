@@ -1,0 +1,17 @@
+[world_state]
+socket = "/tmp/typ-dt.sock"
+
+[protections]
+dos = false
+repudiation = false
+
+[[junction]]
+id = 1
+socket = "/tmp/typ-j1.sock"
+neighbours = { east = 2 }
+
+[[junction]]
+id = 2
+socket = "/tmp/typ-j2.sock"
+neighbours = { west = 1 }
+
